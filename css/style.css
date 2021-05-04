@@ -1,0 +1,53 @@
+/*stryle css*/
+.meny {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ text-decoration: none;
+ overflow: hidden;
+ background-color: #80d4ff;
+ text-align: center;
+ font-size: 30px;
+ }
+
+ .meny a {
+  float: left;
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 20px 35px;
+   text-decoration: none;
+ }
+
+ .meny a:hover{
+   background-color: #4dc3ff
+ }
+
+.bildlank .bildlank2 {
+
+}
+
+/* lägg till en border p ngra pixlar på smhi, tror att det kan bli snyggt*/
+
+ .mySlides {
+  animation: fading 7s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0};
+  display: none;
+}
+
+.slideshow {
+  margin: 0px auto;
+  margin-top: 50px;
+  border: solid #0097a7ff 5px;
+  position: relative;
+  background-color: black;
+/* HUR FÅR JAG BILDSPELET ATT LÄGGA SIG I COTAINERN JAG VILL ATT DET SKA LIGGA I?????
+  min-width: 93px;
+  max-width: 93px;
+  */
+}
+
+.bildlank .bildlank2 {
+  margin: 0px auto;
+  right: 0;
+  left: 0;
+}
