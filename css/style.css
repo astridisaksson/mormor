@@ -15,7 +15,7 @@
    display: block;
    color: white;
    text-align: center;
-   padding: 20px 35px;
+   padding: 15px 20px;
    text-decoration: none;
  }
 
@@ -23,9 +23,12 @@
    background-color: #4dc3ff
  }
 
-.bildlank .bildlank2 {
-
-}
+ .h1 {
+   text-align:center;
+   margin: 0px auto;
+   right: 0px;
+   left: 0px;
+ }
 
 /* lägg till en border p ngra pixlar på smhi, tror att det kan bli snyggt*/
 
@@ -40,14 +43,13 @@
   border: solid #0097a7ff 5px;
   position: relative;
   background-color: black;
-/* HUR FÅR JAG BILDSPELET ATT LÄGGA SIG I COTAINERN JAG VILL ATT DET SKA LIGGA I?????
-  min-width: 93px;
-  max-width: 93px;
-  */
 }
 
-.bildlank .bildlank2 {
+.bildlank ,  .bildlank2 {
   margin: 0px auto;
-  right: 0;
-  left: 0;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+
 }
