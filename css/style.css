@@ -12,7 +12,7 @@ body {
  overflow: hidden;
  background-color: #80d4ff;
  text-align: center;
- font-size: 30px;
+ font-size: 35px;
  font-family: "Times New Roman", serif;
  }
 
@@ -38,6 +38,7 @@ body {
 
  .bildlank {
    padding-top: 30px;
+   padding-left: 50px;
  }
 
  .bildlank2 {
@@ -46,13 +47,15 @@ body {
  }
 
 .smhi1 {
-  border: solid #80D4FF 5px;
+  border-left: solid #80D4FF 5px;
+  border-right: solid #80D4FF 5px;
+  border-bottom: solid #80D4FF 5px;
 }
 
  .smhi2 {
-   border: solid #80D4FF 5px;
-   margin: 0px;
-   padding: 0px;
+   border-left: solid #80D4FF 5px;
+   border-right: solid #80D4FF 5px;
+   border-bottom: solid #80D4FF 5px;
  }
 
 /* lägg till en border p ngra pixlar på smhi, tror att det kan bli snyggt*/
