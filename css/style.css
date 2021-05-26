@@ -1,4 +1,9 @@
 /*stryle css*/
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
 .meny {
  list-style-type: none;
  margin: 0;
@@ -8,6 +13,7 @@
  background-color: #80d4ff;
  text-align: center;
  font-size: 30px;
+ font-family: "Times New Roman", serif;
  }
 
  .meny a {
@@ -23,14 +29,35 @@
    background-color: #4dc3ff
  }
 
- .h1 {
-   text-align:center;
-   margin: 0px auto;
-   right: 0px;
-   left: 0px;
+ h1 {
+  text-align:center;
+  padding-top: auto;
+  font-family: "Times New Roman", serif;
+  color: #80D4FF;
+ }
+
+ .bildlank {
+   padding-top: 30px;
+ }
+
+ .bildlank2 {
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+.smhi1 {
+  border: solid #80D4FF 5px;
+}
+
+ .smhi2 {
+   border: solid #80D4FF 5px;
  }
 
 /* lägg till en border p ngra pixlar på smhi, tror att det kan bli snyggt*/
+
+.bildspel {
+  border: solid #80D4FF 5px;
+}
 
  .mySlides {
   animation: fading 7s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0};
@@ -40,16 +67,7 @@
 .slideshow {
   margin: 0px auto;
   margin-top: 50px;
-  border: solid #0097a7ff 5px;
+  border: solid #80D4FF 5px;
   position: relative;
   background-color: black;
-}
-
-.bildlank ,  .bildlank2 {
-  margin: 0px auto;
-  top: 0px;
-  right: 0px;
-  left: 0px;
-  bottom: 0px;
-
 }
