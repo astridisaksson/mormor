@@ -51,6 +51,8 @@ body {
 
  .smhi2 {
    border: solid #80D4FF 5px;
+   margin: 0px;
+   padding: 0px;
  }
 
 /* lägg till en border p ngra pixlar på smhi, tror att det kan bli snyggt*/
