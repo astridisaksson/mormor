@@ -1,3 +1,5 @@
+//javascript från w3
+
 var myIndex = 0;
 carousel();
 

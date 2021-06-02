@@ -3,7 +3,7 @@ body {
   margin: 0px;
   padding: 0px;
 }
-
+/*de följande tre är för styling av menyn */
 .meny {
  list-style-type: none;
  margin: 0;
@@ -31,7 +31,6 @@ body {
 
  h1 {
   text-align:center;
-  padding-top: auto;
   font-family: "Times New Roman", serif;
   color: #80D4FF;
  }
@@ -39,40 +38,50 @@ body {
  .bildlank {
    padding-top: 30px;
    padding-left: 50px;
+   width: 100%;
  }
 
  .bildlank2 {
-   margin-left: auto;
-   margin-right: auto;
+   margin-left: 70px;
+   width: 100%;
  }
 
-.smhi1 {
+.smhi {
   border-left: solid #80D4FF 5px;
   border-right: solid #80D4FF 5px;
   border-bottom: solid #80D4FF 5px;
+  width: 100%;
 }
 
  .smhi2 {
    border-left: solid #80D4FF 5px;
    border-right: solid #80D4FF 5px;
    border-bottom: solid #80D4FF 5px;
+   width: 100%;
+ }
+
+ p , h2 {
+   text-align:center;
+   font-family: "Times New Roman", serif;
+   color: black;
  }
 
 /* lägg till en border p ngra pixlar på smhi, tror att det kan bli snyggt*/
 
+/* här är styling för bildspelet*/
 .bildspel {
   border: solid #80D4FF 5px;
+  max-width:100%;
 }
 
  .mySlides {
+  width: 100%;
   animation: fading 7s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0};
-  display: none;
 }
 
 .slideshow {
   margin: 0px auto;
   margin-top: 50px;
   border: solid #80D4FF 5px;
-  position: relative;
   background-color: black;
 }
